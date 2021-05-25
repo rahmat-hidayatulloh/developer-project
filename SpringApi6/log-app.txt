@@ -1,0 +1,1 @@
+1. id.latihan.exception.ApplicationException <init> -> Class : [Ljava.lang.Object;, Value : [Token tidak valid, 98]
