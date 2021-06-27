@@ -1,0 +1,29 @@
+1. id.latihan.api.service.LoginService logout -> Class : java.lang.String, Value : 
+2. id.latihan.dao.UserDao findByToken -> Class : null, Value : 
+3. id.latihan.exception.ApplicationException <init> -> Class : [Ljava.lang.Object;, Value : [Token tidak valid, 98]
+4. id.latihan.api.service.LoginService login -> Class : [Ljava.lang.Object;, Value : [admin, password]
+5. id.latihan.dao.UserDao findByUserName -> Class : [Ljava.lang.Object;, Value : [admin]
+6. id.latihan.dao.UserDao findByUserName -> Class : id.latihan.entity.User, Value : User [id=1, userName=admin, password=password]
+7. id.latihan.dao.UserDao updateToken -> Class : [Ljava.lang.Object;, Value : [1]
+8. id.latihan.dao.UserDao updateToken -> Class : java.lang.Integer, Value : 1
+9. id.latihan.api.service.LoginService logout -> Class : java.lang.String, Value : 
+10. id.latihan.dao.UserDao findByToken -> Class : id.latihan.entity.User, Value : User [id=1, userName=admin, password=password]
+11. id.latihan.dao.UserDao updateToken -> Class : [Ljava.lang.Object;, Value : [1]
+12. id.latihan.dao.UserDao updateToken -> Class : java.lang.Integer, Value : 1
+13. id.latihan.api.service.LoginService login -> Class : [Ljava.lang.Object;, Value : [test, test]
+14. id.latihan.dao.UserDao findByUserName -> Class : [Ljava.lang.Object;, Value : [test]
+15. id.latihan.dao.UserDao findByUserName -> Class : null, Value : 
+16. id.latihan.exception.ApplicationException <init> -> Class : [Ljava.lang.Object;, Value : [Pengguna tidak ditemukan, 3]
+17. id.latihan.api.service.LoginService login -> Class : [Ljava.lang.Object;, Value : [admin, password]
+18. id.latihan.dao.UserDao findByUserName -> Class : [Ljava.lang.Object;, Value : [admin]
+19. id.latihan.dao.UserDao findByUserName -> Class : id.latihan.entity.User, Value : User [id=1, userName=admin, password=password]
+20. id.latihan.dao.UserDao updateToken -> Class : [Ljava.lang.Object;, Value : [1]
+21. id.latihan.dao.UserDao updateToken -> Class : java.lang.Integer, Value : 1
+22. id.latihan.dao.StockTypeDao findAll -> Class : java.util.ArrayList, Value : [StockType [id=1, name=Komputer], StockType [id=2, name=Server], StockType [id=3, name=Laptop]]
+23. id.latihan.api.service.StockTypeService getAllStockType -> Class : java.util.ArrayList, Value : [StockType [id=1, name=Komputer], StockType [id=2, name=Server], StockType [id=3, name=Laptop]]
+24. id.latihan.api.service.StockTypeService getStockType -> Class : [Ljava.lang.Object;, Value : [1]
+25. id.latihan.dao.StockTypeDao findById -> Class : [Ljava.lang.Object;, Value : [1]
+26. id.latihan.dao.StockTypeDao findById -> Class : id.latihan.entity.StockType, Value : StockType [id=1, name=Komputer]
+27. id.latihan.api.service.StockTypeService getStockType -> Class : id.latihan.entity.StockType, Value : StockType [id=1, name=Komputer]
+28. id.latihan.dao.StockTypeDao findAll -> Class : java.util.ArrayList, Value : [StockType [id=1, name=Komputer], StockType [id=2, name=Server], StockType [id=3, name=Laptop]]
+29. id.latihan.api.service.StockTypeService getAllStockType -> Class : java.util.ArrayList, Value : [StockType [id=1, name=Komputer], StockType [id=2, name=Server], StockType [id=3, name=Laptop]]
